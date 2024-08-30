@@ -117,3 +117,31 @@ body {
   background-color: #fff9;
   flex: 1;
 }
+
+.andar {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-bottom: 2px solid #fff;
+  flex: 1;
+}
+
+.porta {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5%;
+  width: 40%;
+  height: 80%;
+  background-color: brown;
+  border: solid 5px #fff6;
+  border-bottom: none;
+}
+
+.porta::after {
+  content: "";
+  width: 30%;
+  height: 15%;
+  border-radius: 5px;
+  background-color: #fff9;
+}
