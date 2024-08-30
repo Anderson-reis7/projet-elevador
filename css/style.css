@@ -28,6 +28,7 @@ body {
   background-color: #222;
   gap: 20px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .controles .mostrador {
@@ -92,4 +93,27 @@ body {
   width: 20px;
   height: 100px;
   background-color: #4d3131;
+}
+
+/*! CSS predio */
+
+.predio {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  background-color: #319da0;
+  gap: 10px;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  background-color: #0006;
+  flex: 2;
+}
+
+.poco {
+  display: flex;
+  background-color: #fff9;
+  flex: 1;
 }
