@@ -7,7 +7,7 @@
 
     const terreo = document.createElement("div");
     terreo.classList.add("terreo");
-    terreo.setAttribute("andar", "T");
+    terreo.setAttribute("andar", "t");
     terreo.appendChild(janela);
 
     return terreo;
@@ -39,4 +39,16 @@
   criarAndares();
 
   //! -------------------- Elevador
+
+  function criarElevador() {
+    const poco = document.querySelector(".poco");
+
+    const elevador = document.createElement("div");
+    elevador.classList.add("elevador");
+    elevador.style.height = '99px';
+    
+    poco.appendChild(elevador);
+  }
+
+  criarElevador();
 })();
