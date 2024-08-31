@@ -189,8 +189,8 @@ body {
   position: absolute;
   border: 3px solid #000;
   border-top-width: 10px;
-  background-color: #fffa;
-  width: 80%;
+  background-color: #fff;
+  width: 100%;
   height: 100px;
   bottom: 0;
 }
