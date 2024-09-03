@@ -188,8 +188,9 @@ body {
 .elevador {
   position: absolute;
   border: 3px solid #000;
+  display: flex;
   border-top-width: 10px;
-  background-color: #fff;
-  width: 100%;
+  background-color: #fffa;
+  width: 80%;
   bottom: 0;
 }
