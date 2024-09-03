@@ -1,4 +1,4 @@
-<h1>Projeto Elevador Interativo<h1/>
+<h2>Projeto Elevador Interativo<h2/><br/>
 Este é um projeto de simulação de um elevador interativo desenvolvido com HTML, CSS e JavaScript. O elevador se move entre diferentes andares, exibindo o status de "Subindo" ou "Descendo" no mostrador, e para automaticamente no andar desejado.
 
 <h2/>Funcionalidades<h2/>
